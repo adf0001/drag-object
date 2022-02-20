@@ -1,0 +1,23 @@
+{
+  "name": "drag-object",
+  "version": "1.0.1",
+  "description": "dom element drag tool that support mouse and multiple touches",
+  "main": "drag-object.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drag",
+    "object"
+  ],
+  "author": "fwg",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adf0001/drag-object.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adf0001/drag-object/issues"
+  },
+  "homepage": "https://github.com/adf0001/drag-object#readme"
+}
