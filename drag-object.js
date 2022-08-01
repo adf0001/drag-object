@@ -29,7 +29,7 @@ var dragObject = {
 
 		//check if target is an input
 		if (evt.target.tagName.match(/^(input|button|textarea|select|option.*|a|label)$/i) ||
-			evt.target.classList.contains("input") || evt.target.classList.contains("cmd")) { return false; }
+			evt.target.className?.match(/\b(input|cmd)\b/)) { return false; }
 
 		//unify event and drag-data
 		var dragEvt, dragItem, evtKey;
