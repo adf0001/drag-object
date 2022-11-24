@@ -13,7 +13,7 @@ module.exports = {
 			"	ontouchstart='drag_object.start( arguments[0], this )'>drag 2</span> " +
 			"<span style='position:relative;border:1px solid gray;' id='spDrag3' " +
 			"	onmousedown=\"drag_object.start( arguments[0], this, 'spDrag1', 'spDrag2' )\" " +
-			"	ontouchstart=\"drag_object.start( arguments[0], this, 'spDrag1', 'spDrag2' )\">drag 3</span>";
+			"	ontouchstart=\"drag_object.start( arguments[0], this, 'spDrag1', 'spDrag2' )\">drag 3 <span name='input'>NO</span></span>";
 	},
 	"derive": function (done) {
 		myDragObject = new drag_object.class({

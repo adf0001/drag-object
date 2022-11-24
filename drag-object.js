@@ -28,8 +28,9 @@ var dragObject = {
 		if (!evt) evt = window.event;
 
 		//check if target is an input
-		if (evt.target.tagName.match(/^(input|button|textarea|select|option.*|a|label)$/i) ||
-			evt.target.className?.match(/\b(input|cmd)\b/)) { return false; }
+		if (evt.target.tagName.match(/^(input|button|textarea|select|option.*|a|label)$/i)
+			|| evt.target.className?.match(/\b(input|cmd)\b/)
+			|| evt.target.getAttribute("name")?.match(/\b(input|cmd)\b/)) { return false; }
 
 		//unify event and drag-data
 		var dragEvt, dragItem, evtKey;
